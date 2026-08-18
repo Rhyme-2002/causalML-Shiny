@@ -657,6 +657,10 @@ Deployment configuration for Posit Connect Cloud.
 
 Project documentation and methodological description.
 
+### `data_data.csv`
+
+Sample dataset containing treatment, outcome, and covariate variables for demonstrating causal machine learning analyse
+
 ---
 
 # ☁️ Deployment
