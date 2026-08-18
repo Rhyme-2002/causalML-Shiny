@@ -152,36 +152,36 @@ Evaluate CATE and ATE estimation accuracy.
 ┌──────────────────────┐
 │      Upload CSV      │
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │ Select Outcome (Y)   │
 │ Select Treatment (Z) │
 │ Select Confounders X │
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │   Data Preparation   │
 │    Design Matrix     │
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │  Simulation Study    │
 │ Logistic / BART /    │
 │ GBM / RF / KNN       │
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │ Causal ML Estimation │
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │ CATE & ATE Estimates │
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │ RMSE & ARB Evaluation│
 └──────────┬───────────┘
-           ↓
+↓
 ┌──────────────────────┐
 │ Model Ranking & Plots│
 └──────────────────────┘
